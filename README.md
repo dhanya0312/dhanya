@@ -19,3 +19,6 @@ Description of the project
 This is a pre work project aimed to set up a proxy server and successfully echos requests to the echo servers and log 
 the request to stdout.
 
+GIF walkthrough
+----------------
+![alt tag](https://github.com/dhanya0312/dhanya/blob/master/Pre-Work.gif)
