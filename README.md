@@ -1,23 +1,15 @@
-Installation Instructions
--------------------------
-1. Install nvm for windows.
-2. Install the Babel 
-npm install -g babel@5
-3. Install ESLint
-npm install -g eslint
-4. Install nodemon:
-npm install -g nodemon
-5.Download Sublime Text 3 
-6.Install Sublime Package Control 
-7. Install the following Sublime packages:
--SublimeLinter
--SublimeLinter-contrib-eslint
--Sublime Babel
+This is a Proxy Server for Node.js submitted as the [pre-work](http://courses.codepath.com/snippets/intro_to_nodejs/prework) requirement for CodePath.
 
-Description of the project
---------------------------
-This is a pre work project aimed to set up a proxy server and successfully echos requests to the echo servers and log 
-the request to stdout.
+Time spent: [3.5]
+
+Completed:
+
+* [x] Required: Requests to port `8000` are echoed back with the same HTTP headers and body
+* [x] Required: Requests/reponses are proxied to/from the destination server
+* [x] Required: The destination server is configurable via the `--host`, `--port`  or `--url` arguments
+* [x] Required: The destination server is configurable via the `x-destination-url` header
+* [x] Required: Client requests and respones are printed to stdout
+* [x] Required: The `--logfile` argument outputs all logs to the file specified instead of stdout
 
 GIF walkthrough
 ----------------
